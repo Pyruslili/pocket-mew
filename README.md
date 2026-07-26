@@ -64,7 +64,7 @@ pocket-mew/
     └── mini_cat_trigger.example.js
 ```
 
-![Board in a zipper plush — open a slit, don't gut the whole cat](./docs/images/mew-guts-zip.jpg)
+![Board in a zipper plush — open a slit, don't gut the whole cat](./docs/images/mew-outside.jpg)
 
 ---
 
