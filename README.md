@@ -47,22 +47,20 @@ Pocket Mew 是一条从**现实触摸**通往**AI agent**的开源链路。
 
 ```text
 pocket-mew/
-├── README.md                 ← 你在这里
-├── LICENSE                   ← MIT
+├── README.md
+├── LICENSE
 ├── docs/
-│   ├── 01-hardware.md        ← 材料与接线 + 塞壳实拍
-│   ├── 02-firmware.md        ← 刷固件
-│   ├── 03-worker.md          ← 中继
-│   ├── 04-host-trigger.md    ← 本机触发
-│   ├── 05-safety.md          ← 密钥与边界
-│   └── images/               ← 实拍
-├── firmware/
-│   └── mini-mew/             ← PlatformIO / Arduino 示例（占位符配置）
-├── worker/
-│   └── cloudflare/           ← 最小 Worker 示例
+│   ├── pocket-mew-lite.pdf   ← 简明手册（适合笔记/小红书附件）
+│   ├── 01-hardware.md …
+│   └── images/
+├── scripts/build_lite_pdf.py ← 重新生成 lite PDF
+├── firmware/mini-mew/
+├── worker/cloudflare/
 └── host/
-    └── mini_cat_trigger.example.js
 ```
+
+精简版 PDF（2 页，无密钥）：[`docs/pocket-mew-lite.pdf`](./docs/pocket-mew-lite.pdf)  
+完整脚本与章节仍以仓库为准。
 
 ![Board in a zipper plush — open a slit, don't gut the whole cat](./docs/images/mew-outside.jpg)
 
