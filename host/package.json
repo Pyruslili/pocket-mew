@@ -1,0 +1,12 @@
+{
+  "name": "pocket-mew-host",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Example host poller for pocket-mew",
+  "scripts": {
+    "start": "node mini_cat_trigger.example.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

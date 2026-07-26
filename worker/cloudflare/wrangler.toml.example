@@ -1,0 +1,11 @@
+name = "pocket-mew-touch"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Create a KV namespace, then fill the id:
+# [[kv_namespaces]]
+# binding = "TOUCH_QUEUE"
+# id = "your-kv-namespace-id"
+
+# secrets / vars:
+# wrangler secret put WORKER_TOKEN
