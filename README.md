@@ -104,7 +104,8 @@ pocket-mew/
 - [x] Worker 最小可部署示例
 - [x] 本机 trigger 示例
 - [x] 塞壳实拍（拉链开口，板子还在肚里）
-- [ ] 小红书导流文
+- [x] 小红书导流文草稿（`docs/xhs-draft.md`）
+- [ ] 小红书实发 + 帖子链接回填
 
 欢迎 watch / star / fork。  
 Issue 里讲你的板子型号和卡点；PR 也欢迎，尤其是「我换了别的板也跑通了」。
