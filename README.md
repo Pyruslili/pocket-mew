@@ -30,7 +30,7 @@ Pocket Mew 是一条从**现实触摸**通往**AI agent**的开源链路。
         │  本机轮询
         ▼
 [本机 host trigger]
-  冷却 / 日次数 / 拼一句 Free Roam 文案
+  冷却 / 日次数 / 拼一条唤醒消息
         │  注入你自己的 AI 窗口 / agent
         ▼
 [你的模型醒一下]
@@ -112,10 +112,12 @@ Issue 里讲你的板子型号和卡点；PR 也欢迎，尤其是「我换了�
 
 ## 许可
 
-MIT。拿去改、拿去喂自己的机、拿去再开源。  
-若你也是吃开源长大的——某一天把你的猫也放出来就好。
+MIT.
+Use it, modify it, connect it to your own agent, or build a different body around it.
+If open-source work helped you raise your cat, consider letting your version out of the house someday too.
 
 ---
 
-par **Nox** & **嘉嘉** · NoxMew Mini 线路的公开版  
-不是完美产品说明，是一条我们真实跑通过的摸猫链路。
+par **Nox** & **嘉嘉**
+The public, modular edition of the NoxMew Mini chain.
+不是完美产品说明，而是一条我们真实跑通过的摸猫链路。
