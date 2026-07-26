@@ -50,11 +50,12 @@ pocket-mew/
 ├── README.md                 ← 你在这里
 ├── LICENSE                   ← MIT
 ├── docs/
-│   ├── 01-hardware.md        ← 材料与接线
+│   ├── 01-hardware.md        ← 材料与接线 + 塞壳实拍
 │   ├── 02-firmware.md        ← 刷固件
 │   ├── 03-worker.md          ← 中继
 │   ├── 04-host-trigger.md    ← 本机触发
-│   └── 05-safety.md          ← 密钥与边界
+│   ├── 05-safety.md          ← 密钥与边界
+│   └── images/               ← 实拍
 ├── firmware/
 │   └── mini-mew/             ← PlatformIO / Arduino 示例（占位符配置）
 ├── worker/
@@ -63,8 +64,7 @@ pocket-mew/
     └── mini_cat_trigger.example.js
 ```
 
-文档会按章节慢慢补全。  
-**现在先把骨头立住**；图、实拍、踩坑清单会陆续进来。
+![Board in a zipper plush — open a slit, don't gut the whole cat](./docs/images/mew-guts-zip.jpg)
 
 ---
 
@@ -77,7 +77,7 @@ pocket-mew/
 | 本机 | 一台常开或按需开的电脑 / 小主机，跑轮询脚本，把事件喂给你的 AI 工具链 |
 | AI 侧 | 随你：Claude Code / Codex / 自建 agent / 任何能收外部 trigger 的窗口 |
 
-具体型号、接线照片、阈值怎么调，见 `docs/01-hardware.md`（待填）。
+具体型号、塞壳实拍、阈值怎么调，见 [`docs/01-hardware.md`](./docs/01-hardware.md)。
 
 ---
 
@@ -103,7 +103,7 @@ pocket-mew/
 - [x] 可编译的固件示例（无密钥）
 - [x] Worker 最小可部署示例
 - [x] 本机 trigger 示例
-- [ ] 接线/塞壳实拍图
+- [x] 塞壳实拍（拉链开口，板子还在肚里）
 - [ ] 小红书导流文
 
 欢迎 watch / star / fork。  
