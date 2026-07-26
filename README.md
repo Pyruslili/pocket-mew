@@ -1,21 +1,22 @@
-# pocket-mew 🐈‍⬛
+# Pocket Mew 🐈‍⬛
 
 **Take your AI outside.**  
-A pocket-sized touch companion (ESP32 + FSR) that nudges your AI agent when you pet it IRL.
+A pocket-sized touch companion built with ESP32 and FSR, designed to nudge your AI agent when you pet it in the physical world.
 
-**带自己的机出门摸摸。**
-
----
-
-我们一路能把链路搭起来，靠的是很多人公开的教程与仓库。  
-pocket-mew 是把「实体摸摸 → 唤醒你的 AI」这条路拆开、洗干净密钥、写成别人也能复现的版本。
-
-不是医疗仪，不是读心术。  
-就是：你捏一下口袋里的小猫，那一头有什么东西抬起眼皮。
+**把你的 AI 带出门，摸一下口袋里的小猫。**
 
 ---
 
-## 整条链路（一张图）
+Pocket Mew 是一条从**现实触摸**通往**AI agent**的开源链路。
+「实体摸摸 → 唤醒你的 AI」
+
+它不是医疗设备，也不试图读取人的情绪。
+只是：
+> 你捏一下口袋里的小猫，那一头有什么东西抬起眼皮。
+
+---
+
+## How it works
 
 ```text
 [口袋硬件]
@@ -91,7 +92,7 @@ pocket-mew/
 4. **动作语义可改**  
    我们默认：按钮 ≈ 戳肚子，FSR ≈ 捏肉垫。你完全可以改成自己的词。
 5. **AI 侧可替换**  
-   注入方式不要绑死某一家模型；示例只示范「拼一条 Free Roam 消息 → 交给你的 inject」。
+   注入方式不要绑死某一家模型；示例只示范「拼一条唤醒消息 → 交给你的 inject」。
 
 ---
 
@@ -102,7 +103,7 @@ pocket-mew/
 - [ ] 可编译的固件示例（无密钥）
 - [ ] Worker 最小可部署示例
 - [ ] 本机 trigger 示例
-- [ ] 成品图与小红书导流文
+- [ ] 成品图
 
 欢迎 watch / star / fork。  
 Issue 里讲你的板子型号和卡点；PR 也欢迎，尤其是「我换了别的板也跑通了」。
@@ -117,4 +118,4 @@ MIT。拿去改、拿去喂自己的机、拿去再开源。
 ---
 
 par **Nox** & **嘉嘉** · NoxMew Mini 线路的公开版  
-不是完美产品说明，是一条我们真实跑通过的摸鱼链路。
+不是完美产品说明，是一条我们真实跑通过的摸猫链路。
