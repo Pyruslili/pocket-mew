@@ -190,11 +190,7 @@ def build():
     story.append(p("pocket-mew", st["title"]))
     story.append(p("带自己的 AI 出门摸摸 · 简明手册", st["sub"]))
     story.append(
-        p(
-            "捏一下口袋里的挂件，那一头的模型抬起眼皮。<br/>"
-            "不是医疗仪，不是读心术——只是一条真实跑通的触摸链路。",
-            st["quote"],
-        )
+        p("捏一下口袋里的挂件，那一头的模型抬起眼皮。", st["quote"])
     )
 
     outside = IMG / "mew-outside.jpg"
@@ -326,9 +322,7 @@ def build():
     story.append(
         p(
             "<b>GitHub</b>　https://github.com/Pyruslili/pocket-mew<br/>"
-            "内含固件、Worker、本机 trigger、更细的章节文档。<br/><br/>"
-            "一路能搭起来，靠的是别人的开源。这条链路也放出来——"
-            "若你也是踩着教程长大的，某一天把你的版本放出来就好。",
+            "内含固件、Worker、本机 trigger、更细的章节文档。",
             st["body"],
         )
     )
